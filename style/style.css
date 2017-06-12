@@ -1,0 +1,21 @@
+/*center chart and chart contents */
+td, th {
+  vertical-align: middle !important;
+  text-align: center !important;
+}
+
+/*add margin above search bar */
+.input-group {
+  margin: 20px 0px;
+}
+
+/*equalize chart size */
+svg {
+  height: 150px;
+}
+
+/*find the first td inside each row; find the first td and its child div (google map) and give it these attributes*/
+td:first-of-type, td:first-of-type > div {
+  height: 200px;
+  width: 250px;
+}
